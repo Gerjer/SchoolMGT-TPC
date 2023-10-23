@@ -177,22 +177,7 @@ Public Class ftLoginForm
 
             myData.Read()
             Dim file_name As String = myData.GetString("file_name")
-            'ftmdiMainForm.Text = myData.GetString("company_name")
-            'FileSize = myData.GetUInt32(myData.GetOrdinal("file_size"))
-            'rawData = New Byte(FileSize) {}
 
-            'myData.GetBytes(myData.GetOrdinal("file"), 0, rawData, 0, FileSize)
-
-            'fs = New FileStream(file_name, FileMode.OpenOrCreate, FileAccess.Write)
-            ''   fs = New FileStream("C:\newfile.png", FileMode.OpenOrCreate, FileAccess.Write)
-            'fs.Write(rawData, 0, FileSize)
-            'fs.Close()
-
-
-            'myData.Close()
-            'con.Close()
-
-            'ftmdiMainForm.filename = file_name
 
             ftmdiMainForm.filename = file_name
 
