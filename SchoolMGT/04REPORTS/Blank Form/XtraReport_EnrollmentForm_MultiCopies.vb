@@ -1,0 +1,3 @@
+﻿Public Class XtraReport_EnrollmentForm_MultiCopies
+
+End Class

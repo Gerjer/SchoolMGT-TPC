@@ -1,0 +1,5 @@
+id,admission_no,class_roll_no,admission_date,batch_id,student_category_id,is_sms_enabled,is_active,is_deleted,has_paid_fees,user_id,runningbalance,is_enrolled,bal_edit,is_regular,person_id,year_level,semester,enrollmentAS,course_id,status_type_id,stature,std_number,academice_year
+22,210112000022,9,2021-01-12,37,13,1,1,0,0,0,0,1,0,0,24,2nd year,1st Semester,OLD,4,1,Transferred from Private School,TPC-2020-2-0009,2019
+23,210112000023,10,2021-01-12,37,13,1,1,0,0,0,0,1,0,0,25,2nd year,1st Semester,OLD,4,1,ALS Passer,TPC-2021-2-0010,2019
+24,210112000024,11,2021-01-12,37,13,1,1,0,0,0,0,1,0,0,26,2nd year,1st Semester,OLD,4,1,Transfered from Public School,TPC-2021-2-0011,2019
+25,210112000025,12,2021-01-12,37,13,1,1,0,0,0,0,1,0,0,27,2nd year,1st Semester,OLD,4,1,Transferred from Private School,TPC-2021-2-0012,2019

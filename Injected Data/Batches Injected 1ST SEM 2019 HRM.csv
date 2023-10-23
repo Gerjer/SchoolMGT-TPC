@@ -1,0 +1,5 @@
+id,name,course_id,start_date,end_date,is_active,is_deleted,employee_id,year_level,school_year,semester,SysPk,coursename
+40,BS HRM - 1st Year 1st Sem ( 2019 - 2019 ),4,,,1,0,,1SY YEAR,2019 - 2019,1ST SEMESTER,-104810001,BS HRM - Hotel and Restaurant Management
+41,BS HRM - 2nd Year 1st Sem ( 2019 - 2019 ),4,,,1,0,,2ND YEAR,2019 - 2019,1ST SEMESTER,-104810002,BS HRM - Hotel and Restaurant Management
+42,BS HRM - 3rd  Year 1st Sem ( 2019 - 2019 ),4,,,1,0,,3RD YEAR,2019 - 2019,1ST SEMESTER,-104810003,BS HRM - Hotel and Restaurant Management
+43,BS HRM - 4th Year 1st Sem ( 2019 - 20219 ),4,,,1,0,,4TH YEAR,2019 - 2019,1ST SEMESTER,-104810004,BS HRM - Hotel and Restaurant Management

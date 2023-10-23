@@ -1,0 +1,1932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB1FF321-2860-4609-93C3-2645DED4B5A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SchoolMGT.My.MyApplication</StartupObject>
+    <RootNamespace>SchoolMGT</RootNamespace>
+    <AssemblyName>SchoolMGT</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>DJEMFCST_LOGO.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SchoolMGT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SchoolMGT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Chart, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.CodeDomSerializer, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.Design3, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.HtmlExport, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.Interop, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=x86" />
+    <Reference Include="ActiveReports.PdfExport, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.RtfExport, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.TextExport, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.TiffExport, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.Viewer3, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.Web, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.Web.Design, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports.XlsExport, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ActiveReports3, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="ARVSPackage, Version=5.3.1436.2, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL" />
+    <Reference Include="C1.C1Preview.2, Version=2.0.20073.42109, Culture=neutral, PublicKeyToken=594a0605db190bb9, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1TrueDBGrid.2, Version=2.0.20073.61130, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v18.2.UI, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Diagram.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Mvvm.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v18.2.Drawing, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.Base.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Export, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Spreadsheet.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2.UI, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.DemoTheme.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Core.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Ribbon.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.UI, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDiagram.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.2.Extensions, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\MicrosoftOfficeCore.15.0.0\lib\net35\Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Web.DemoData.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="00MAINFORMS\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\ArkAntSoftSplashScreen.Designer.vb">
+      <DependentUpon>ArkAntSoftSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\ArkAntSoftSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\fmaUserList.Designer.vb">
+      <DependentUpon>fmaUserList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\fmaUserList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\fmaUserSetup.Designer.vb">
+      <DependentUpon>fmaUserSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\fmaUserSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\frmFinanceMainForms.Designer.vb">
+      <DependentUpon>frmFinanceMainForms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\frmFinanceMainForms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\frmCompanyProfileSetup.Designer.vb">
+      <DependentUpon>frmCompanyProfileSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\frmCompanyProfileSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\frmSU_Pass.Designer.vb">
+      <DependentUpon>frmSU_Pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\frmSU_Pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\ftDatabaseConnectionForm.Designer.vb">
+      <DependentUpon>ftDatabaseConnectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\ftDatabaseConnectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\ftLoginForm.Designer.vb">
+      <DependentUpon>ftLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\ftLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\ftmdiMainForm.Designer.vb">
+      <DependentUpon>ftmdiMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\ftmdiMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\fzzReportViewerForm.Designer.vb">
+      <DependentUpon>fzzReportViewerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\fzzReportViewerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\remarksDlg.Designer.vb">
+      <DependentUpon>remarksDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\remarksDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Admission\Model\StudentAdmissionListModel.vb" />
+    <Compile Include="01SETUPFORMS\Admission\Model\StudentCareerListModel.vb" />
+    <Compile Include="01SETUPFORMS\Admission\Presenter\StudentAdmissionListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Admission\Presenter\StudentCareerListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Admission\View\frmStudentCareerList.Designer.vb">
+      <DependentUpon>frmStudentCareerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Admission\View\frmStudentCareerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Admission\View\frmNewStudentAdmissionList.Designer.vb">
+      <DependentUpon>frmNewStudentAdmissionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Admission\View\frmNewStudentAdmissionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Billing Statement\Model\BillingStatementModel.vb" />
+    <Compile Include="01SETUPFORMS\Billing Statement\Presenter\BillingStatementPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Billing Statement\View\frmBillingStatement.Designer.vb">
+      <DependentUpon>frmBillingStatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Billing Statement\View\frmBillingStatement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Billing Statement\View\frmBillingStatementCreat.Designer.vb">
+      <DependentUpon>frmBillingStatementCreat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Billing Statement\View\frmBillingStatementCreat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\CHED E-Form B_C\Model\ChedEFormBCListModel.vb" />
+    <Compile Include="01SETUPFORMS\CHED E-Form B_C\Presenter\ChedEFormBCListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\CHED E-Form B_C\View\frmChed E-FormBC.Designer.vb">
+      <DependentUpon>frmChed E-FormBC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\CHED E-Form B_C\View\frmChed E-FormBC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaChedEListForm.Designer.vb">
+      <DependentUpon>fmaChedEListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaChedEListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectTeacherListForm.Designer.vb">
+      <DependentUpon>fmaSubjectTeacherListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectTeacherListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Grade Slip\Model\GradeSlipListModel.vb" />
+    <Compile Include="01SETUPFORMS\Grade Slip\Presenter\GradeSlipListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Grade Slip\View\frmGradeSlip.Designer.vb">
+      <DependentUpon>frmGradeSlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Grade Slip\View\frmGradeSlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Graduate Student\Model\GraduateListModel.vb" />
+    <Compile Include="01SETUPFORMS\Graduate Student\Presenter\GraduateListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Graduate Student\View\frmGraduateList.Designer.vb">
+      <DependentUpon>frmGraduateList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Graduate Student\View\frmGraduateList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\PREVILEGE AND ACCESS\Model\PrevilegeAccessModel.vb" />
+    <Compile Include="01SETUPFORMS\PREVILEGE AND ACCESS\Presenter\PrevilegeAccessPresenter.vb" />
+    <Compile Include="01SETUPFORMS\PREVILEGE AND ACCESS\View\frmPrevilegeAccess.Designer.vb">
+      <DependentUpon>frmPrevilegeAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\PREVILEGE AND ACCESS\View\frmPrevilegeAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Student Learners\Model\StudentLearnersListModel.vb" />
+    <Compile Include="01SETUPFORMS\Student Learners\Presenter\StudentLearnersListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Student Learners\View\frmStudentLearnersList.Designer.vb">
+      <DependentUpon>frmStudentLearnersList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Student Learners\View\frmStudentLearnersList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Blank Form\Model\BlankFormListModel.vb" />
+    <Compile Include="01SETUPFORMS\Blank Form\Presenter\BlankFormListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Blank Form\View\frmBlankForm.Designer.vb">
+      <DependentUpon>frmBlankForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Blank Form\View\frmBlankForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\CourseList.Designer.vb">
+      <DependentUpon>CourseList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\CourseList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\DotNetBarControls\DevComponentsControls.Designer.vb">
+      <DependentUpon>DevComponentsControls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\DotNetBarControls\DevComponentsControls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\EHRM_PersonaProfile_ViewerListForm.Designer.vb">
+      <DependentUpon>EHRM_PersonaProfile_ViewerListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\EHRM_PersonaProfile_ViewerListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\EHRM_PersonProfile_SetupForm.Designer.vb">
+      <DependentUpon>EHRM_PersonProfile_SetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\EHRM_PersonProfile_SetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Employee\Model\EmployeeRecordModel.vb" />
+    <Compile Include="01SETUPFORMS\Employee\Presenter\EmployeeRecordPresenter.vb" />
+    <Compile Include="01SETUPFORMS\fmaAddSubjectForm.Designer.vb">
+      <DependentUpon>fmaAddSubjectForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaAddSubjectForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCashVoucherSetupForm.Designer.vb">
+      <DependentUpon>fmaCashVoucherSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCashVoucherSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepartmentSetupForm.Designer.vb">
+      <DependentUpon>fmaDepartmentSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepartmentSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepatmentList.Designer.vb">
+      <DependentUpon>fmaDepatmentList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepatmentList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepatmentSetup.Designer.vb">
+      <DependentUpon>fmaDepatmentSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepatmentSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesMasterDuplicate.Designer.vb">
+      <DependentUpon>fmaFeesMasterDuplicate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesMasterDuplicate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFinance_FeeSchedulerForm.Designer.vb">
+      <DependentUpon>fmaFinance_FeeSchedulerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFinance_FeeSchedulerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCoursesListForm.Designer.vb">
+      <DependentUpon>fmaCoursesListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCoursesListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCoursesSetupForm.Designer.vb">
+      <DependentUpon>fmaCoursesSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCoursesSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaBatchesListForm.Designer.vb">
+      <DependentUpon>fmaBatchesListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaBatchesListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaBatchesSetupForm.Designer.vb">
+      <DependentUpon>fmaBatchesSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaBatchesSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesMasterSetupForm.Designer.vb">
+      <DependentUpon>fmaFeesMasterSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesMasterSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCreditDistributionListForm.Designer.vb">
+      <DependentUpon>fmaCreditDistributionListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCreditDistributionListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCreditDistributionSetupForm.Designer.vb">
+      <DependentUpon>fmaCreditDistributionSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaCreditDistributionSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaIncomeSetupForm.Designer.vb">
+      <DependentUpon>fmaIncomeSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaIncomeSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepartmentListForm.Designer.vb">
+      <DependentUpon>fmaDepartmentListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaDepartmentListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaJobTitleList.Designer.vb">
+      <DependentUpon>fmaJobTitleList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaJobTitleList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaJobTitleSetup.Designer.vb">
+      <DependentUpon>fmaJobTitleSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaJobTitleSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaOfficialTranscipt9AForm.Designer.vb">
+      <DependentUpon>fmaOfficialTranscipt9AForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaOfficialTranscipt9AForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaOfficialTranscipt9Form.Designer.vb">
+      <DependentUpon>fmaOfficialTranscipt9Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaOfficialTranscipt9Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPayGradeList.Designer.vb">
+      <DependentUpon>fmaPayGradeList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPayGradeList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPayGradeSetup.Designer.vb">
+      <DependentUpon>fmaPayGradeSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPayGradeSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPositionList.Designer.vb">
+      <DependentUpon>fmaPositionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPositionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPositionSetup.Designer.vb">
+      <DependentUpon>fmaPositionSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaPositionSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradeEntryForm.Designer.vb">
+      <DependentUpon>fmaStudentsGradeEntryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradeEntryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradeStList.Designer.vb">
+      <DependentUpon>fmaStudentsGradeStList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradeStList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradeMainForm.Designer.vb">
+      <DependentUpon>fmaStudentsGradeMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradeMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentGradingPeriodForm.Designer.vb">
+      <DependentUpon>fmaStudentGradingPeriodForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentGradingPeriodForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectaSetupForm.Designer.vb">
+      <DependentUpon>fmaSubjectaSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectaSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentCategoryListForm.Designer.vb">
+      <DependentUpon>fmaStudentCategoryListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentCategoryListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentCategorySetupForm.Designer.vb">
+      <DependentUpon>fmaStudentCategorySetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentCategorySetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentAdmissionListForm.Designer.vb">
+      <DependentUpon>fmaStudentAdmissionListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentAdmissionListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentAdmissionSetupForm.Designer.vb">
+      <DependentUpon>fmaStudentAdmissionSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentAdmissionSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentFeePaymentsForm.Designer.vb">
+      <DependentUpon>fmaStudentFeePaymentsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentFeePaymentsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentAssessmentForm.Designer.vb">
+      <DependentUpon>fmaStudentAssessmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentAssessmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectStudentsListForm.Designer.vb">
+      <DependentUpon>fmaSubjectStudentsListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectStudentsListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesMasterListForm.Designer.vb">
+      <DependentUpon>fmaFeesMasterListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesMasterListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesDetailListForm.Designer.vb">
+      <DependentUpon>fmaFeesDetailListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeesDetailListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeeCategoryListForm.Designer.vb">
+      <DependentUpon>fmaFeeCategoryListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaFeeCategoryListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRPT_IncomeExpenseForm.Designer.vb">
+      <DependentUpon>fmaRPT_IncomeExpenseForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRPT_IncomeExpenseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaGroupedCoursesForm.Designer.vb">
+      <DependentUpon>fmaGroupedCoursesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaGroupedCoursesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaGroupepCourseEntryForm.Designer.vb">
+      <DependentUpon>fmaGroupepCourseEntryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaGroupepCourseEntryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRegistrarTORPrinting.Designer.vb">
+      <DependentUpon>fmaRegistrarTORPrinting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRegistrarTORPrinting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradingPeriod.Designer.vb">
+      <DependentUpon>fmaStudentsGradingPeriod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsGradingPeriod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaOfficialTransciptForm.Designer.vb">
+      <DependentUpon>fmaOfficialTransciptForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaOfficialTransciptForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Employee\View\fmaEmployeeRecord.Designer.vb">
+      <DependentUpon>fmaEmployeeRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Employee\View\fmaEmployeeRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaTimeScheduleList.Designer.vb">
+      <DependentUpon>fmaTimeScheduleList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaTimeScheduleList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaTimeScheduleSetup.Designer.vb">
+      <DependentUpon>fmaTimeScheduleSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaTimeScheduleSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\frmFilterPerson.Designer.vb">
+      <DependentUpon>frmFilterPerson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\frmFilterPerson.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\frmSubjectScheduleSetup.Designer.vb">
+      <DependentUpon>frmSubjectScheduleSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\frmSubjectScheduleSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Request Form\Model\RequisitionSlipRecordModel.vb" />
+    <Compile Include="01SETUPFORMS\Request Form\Presenter\RequisitionSlipRecordPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Request Form\View\frmRequisitionSlip.Designer.vb">
+      <DependentUpon>frmRequisitionSlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Request Form\View\frmRequisitionSlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Graduate Student\Model\GraduateStudentRecordModel.vb" />
+    <Compile Include="01SETUPFORMS\Graduate Student\Presenter\GraduateStudentRecordPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Graduate Student\View\frmGraduateStudent.Designer.vb">
+      <DependentUpon>frmGraduateStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Graduate Student\View\frmGraduateStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Grade Sheet\Model\GradeSheetListModel.vb" />
+    <Compile Include="01SETUPFORMS\Grade Sheet\Presenter\GradeSheetListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Grade Sheet\View\frmGradeSheet.Designer.vb">
+      <DependentUpon>frmGradeSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Grade Sheet\View\frmGradeSheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\MasterSetup.Designer.vb">
+      <DependentUpon>MasterSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\MasterSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\StudentAssessmentForm.Designer.vb">
+      <DependentUpon>StudentAssessmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\StudentAssessmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="00MAINFORMS\Mainloading.Designer.vb">
+      <DependentUpon>Mainloading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="00MAINFORMS\Mainloading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsSubjectListForm.Designer.vb">
+      <DependentUpon>fmaStudentsSubjectListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentsSubjectListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectScheduleListForm.Designer.vb">
+      <DependentUpon>fmaSubjectScheduleListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectScheduleListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectScheduleSetupForm.Designer.vb">
+      <DependentUpon>fmaSubjectScheduleSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectScheduleSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Employee\View\fmaEmployeeListForm.Designer.vb">
+      <DependentUpon>fmaEmployeeListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Employee\View\fmaEmployeeListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRoomListForm.Designer.vb">
+      <DependentUpon>fmaRoomListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRoomListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRoomSetupForm.Designer.vb">
+      <DependentUpon>fmaRoomSetupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaRoomSetupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectaListForm.Designer.vb">
+      <DependentUpon>fmaSubjectaListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaSubjectaListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentListForm.Designer.vb">
+      <DependentUpon>fmaStudentListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\fmaStudentListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Subject Load\Model\SubjectLoadListModel.vb" />
+    <Compile Include="01SETUPFORMS\Subject Load\Presenter\SubjectLoadListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\Subject Load\View\frmSubjectLoad.Designer.vb">
+      <DependentUpon>frmSubjectLoad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\Subject Load\View\frmSubjectLoad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\TES Application\Model\TESApplicationListModel.vb" />
+    <Compile Include="01SETUPFORMS\TES Application\Model\TESApplicationRecordModel.vb" />
+    <Compile Include="01SETUPFORMS\TES Application\Presenter\TESApplicationListPresenter.vb" />
+    <Compile Include="01SETUPFORMS\TES Application\Presenter\TESApplicationRecordPresenter.vb" />
+    <Compile Include="01SETUPFORMS\TES Application\View\frmTESApplicationEntry.Designer.vb">
+      <DependentUpon>frmTESApplicationEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\TES Application\View\frmTESApplicationEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01SETUPFORMS\TES Application\View\frmTESApplicationList.Designer.vb">
+      <DependentUpon>frmTESApplicationList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01SETUPFORMS\TES Application\View\frmTESApplicationList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_BillingStatements_Form1.Designer.vb">
+      <DependentUpon>XtraReport_BillingStatements_Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_BillingStatements_Form1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_BillingStatements_Form3.Designer.vb">
+      <DependentUpon>XtraReport_BillingStatements_Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_BillingStatements_Form3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_Billing_Statement_Form2.Designer.vb">
+      <DependentUpon>XtraReport_Billing_Statement_Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_Billing_Statement_Form2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Billing Statement\XtraReport_Model.vb" />
+    <Compile Include="04REPORTS\Blank Form\XtraReport_ClaimStub.Designer.vb">
+      <DependentUpon>XtraReport_ClaimStub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_ClaimStub.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_ClaimStub_MultiCopies.Designer.vb">
+      <DependentUpon>XtraReport_ClaimStub_MultiCopies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_ClaimStub_MultiCopies.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_EnrollmentForm.Designer.vb">
+      <DependentUpon>XtraReport_EnrollmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_EnrollmentForm.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_EnrollmentForm_MultiCopies.Designer.vb">
+      <DependentUpon>XtraReport_EnrollmentForm_MultiCopies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_EnrollmentForm_MultiCopies.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_RequestForm.Designer.vb">
+      <DependentUpon>XtraReport_RequestForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_RequestForm.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_RequestForm_MultiCopies.Designer.vb">
+      <DependentUpon>XtraReport_RequestForm_MultiCopies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_RequestForm_MultiCopies.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_TESApplication.Designer.vb">
+      <DependentUpon>XtraReport_TESApplication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_TESApplication.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_TESApplication_MultiCopies.Designer.vb">
+      <DependentUpon>XtraReport_TESApplication_MultiCopies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Blank Form\XtraReport_TESApplication_MultiCopies.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\CHED EForm BC\xtrCHED E-Form B_C.Designer.vb">
+      <DependentUpon>xtrCHED E-Form B_C.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\CHED EForm BC\xtrCHED E-Form B_C.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_CORMain_lng.Designer.vb">
+      <DependentUpon>XtraReport_CORMain_lng.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_CORMain_lng.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_CORNew_lng.Designer.vb">
+      <DependentUpon>XtraReport_CORNew_lng.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_CORNew_lng.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_COR_SubReport_AssessmentDetaills1_lng.Designer.vb">
+      <DependentUpon>XtraReport_COR_SubReport_AssessmentDetaills1_lng.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_COR_SubReport_AssessmentDetaills1_lng.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_COR_SubReport_SubjectDetaills1_lng.Designer.vb">
+      <DependentUpon>XtraReport_COR_SubReport_SubjectDetaills1_lng.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Long paper\XtraReport_COR_SubReport_SubjectDetaills1_lng.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR1.Designer.vb">
+      <DependentUpon>XtraReport_COR1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_CORMain.Designer.vb">
+      <DependentUpon>XtraReport_CORMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_CORMain.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_CORNew.Designer.vb">
+      <DependentUpon>XtraReport_CORNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_CORNew.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR_Final.Designer.vb">
+      <DependentUpon>XtraReport_COR_Final.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR_Final.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR_SubReport_AssessmentDetaills1.Designer.vb">
+      <DependentUpon>XtraReport_COR_SubReport_AssessmentDetaills1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR_SubReport_AssessmentDetaills1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR_SubReport_SubjectDetaills1.Designer.vb">
+      <DependentUpon>XtraReport_COR_SubReport_SubjectDetaills1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Short paper\XtraReport_COR_SubReport_SubjectDetaills1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Slip\xtrGradeSlip.Designer.vb">
+      <DependentUpon>xtrGradeSlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Slip\xtrGradeSlip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Slip\xtrGradeSlip_dummy.Designer.vb">
+      <DependentUpon>xtrGradeSlip_dummy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Slip\xtrGradeSlip_dummy.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Slip\xtrGradeSlip_Main.Designer.vb">
+      <DependentUpon>xtrGradeSlip_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Slip\xtrGradeSlip_Main.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_CHED_E_List.Designer.vb">
+      <DependentUpon>rpt_CHED_E_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_CHED_E_List.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Subject Load\xtrSubjectLoad.Designer.vb">
+      <DependentUpon>xtrSubjectLoad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Subject Load\xtrSubjectLoad.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Subject Load\xtrSubjectLoad_Main.Designer.vb">
+      <DependentUpon>xtrSubjectLoad_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Subject Load\xtrSubjectLoad_Main.vb" />
+    <Compile Include="04REPORTS\SubjectSchedulePerInstructor.designer.vb">
+      <DependentUpon>SubjectSchedulePerInstructor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\SubjectSchedulePerInstructor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\SubjectSchedulePerRoom.designer.vb">
+      <DependentUpon>SubjectSchedulePerRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\SubjectSchedulePerRoom.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\SubjectTeacherSummaryPerBatch.Designer.vb">
+      <DependentUpon>SubjectTeacherSummaryPerBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\SubjectTeacherSummaryPerBatch.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\T_E_S\XtraReportScholarshipTES.Designer.vb">
+      <DependentUpon>XtraReportScholarshipTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\T_E_S\XtraReportScholarshipTES.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\xtrPRCList.Designer.vb">
+      <DependentUpon>xtrPRCList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\xtrPRCList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="05OBJECTLIST\AttendedUniversity.vb" />
+    <Compile Include="05OBJECTLIST\BillingStatement.vb" />
+    <Compile Include="05OBJECTLIST\BillingStatementForm2.vb" />
+    <Compile Include="05OBJECTLIST\BillingStatementForm3.vb" />
+    <Compile Include="05OBJECTLIST\Class1.vb" />
+    <Compile Include="02CLASSES\clsData.vb" />
+    <Compile Include="02CLASSES\clsDBConnection.vb" />
+    <Compile Include="02CLASSES\clsSQLGeneric.vb" />
+    <Compile Include="02CLASSES\cls_EmployeeInfo.vb" />
+    <Compile Include="02CLASSES\Effect.vb" />
+    <Compile Include="05OBJECTLIST\EmployeeDetails.vb" />
+    <Compile Include="05OBJECTLIST\GradeSlip.vb" />
+    <Compile Include="05OBJECTLIST\GradingPeriod.vb" />
+    <Compile Include="05OBJECTLIST\GraduateStudent.vb" />
+    <Compile Include="05OBJECTLIST\GridViewFeaturesHelper.vb" />
+    <Compile Include="05OBJECTLIST\IncreasePercentage.vb" />
+    <Compile Include="05OBJECTLIST\ListOfAchievements.vb" />
+    <Compile Include="05OBJECTLIST\ListOfAttachment_Documents.vb" />
+    <Compile Include="05OBJECTLIST\OfficialReceiptInventroy.vb" />
+    <Compile Include="05OBJECTLIST\PersonDetails.vb" />
+    <Compile Include="05OBJECTLIST\ProcessHandler.vb" />
+    <Compile Include="05OBJECTLIST\ProcessModule.vb" />
+    <Compile Include="05OBJECTLIST\Requesition.vb" />
+    <Compile Include="05OBJECTLIST\Requisition_PurposeRequest.vb" />
+    <Compile Include="05OBJECTLIST\Requisition_TypeOfRequest.vb" />
+    <Compile Include="05OBJECTLIST\StudentAcademic.vb" />
+    <Compile Include="05OBJECTLIST\StudentNonAcademic.vb" />
+    <Compile Include="05OBJECTLIST\StudentProfileList.vb" />
+    <Compile Include="03LIB\modCommon.vb" />
+    <Compile Include="03LIB\SW_Mod.vb" />
+    <Compile Include="04REPORTS\rpt_OTORForm9.Designer.vb">
+      <DependentUpon>rpt_OTORForm9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_OTORForm9.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_OTORForm9A.Designer.vb">
+      <DependentUpon>rpt_OTORForm9A.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_OTORForm9A.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_CashVoucher.Designer.vb">
+      <DependentUpon>rpt_CashVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_CashVoucher.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_CollegeStudentAssessmentReport.Designer.vb">
+      <DependentUpon>rpt_CollegeStudentAssessmentReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_CollegeStudentAssessmentReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_IncomeExpeseList.Designer.vb">
+      <DependentUpon>rpt_IncomeExpeseList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_IncomeExpeseList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_OTOR.Designer.vb">
+      <DependentUpon>rpt_OTOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_OTOR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_ReceiptPrintout.Designer.vb">
+      <DependentUpon>rpt_ReceiptPrintout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_ReceiptPrintout.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_StudentsGrade.Designer.vb">
+      <DependentUpon>rpt_StudentsGrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_StudentsGrade.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_StudentStatementofAccount.Designer.vb">
+      <DependentUpon>rpt_StudentStatementofAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\rpt_StudentStatementofAccount.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_OTORForma9ADetails.Designer.vb">
+      <DependentUpon>subrpt_OTORForma9ADetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_OTORForma9ADetails.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_SOAFee.Designer.vb">
+      <DependentUpon>subrpt_SOAFee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_SOAFee.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_studentpaymode.Designer.vb">
+      <DependentUpon>subrpt_studentpaymode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_studentpaymode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_studentspayment_made.Designer.vb">
+      <DependentUpon>subrpt_studentspayment_made.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_studentspayment_made.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_StudentSubjectList.Designer.vb">
+      <DependentUpon>subrpt_StudentSubjectList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\subrpt_StudentSubjectList.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Old\XtraReport_COR.Designer.vb">
+      <DependentUpon>XtraReport_COR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Old\XtraReport_COR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Old\XtraReport_COR_SubReport_AssessmentDetaills.Designer.vb">
+      <DependentUpon>XtraReport_COR_SubReport_AssessmentDetaills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Old\XtraReport_COR_SubReport_AssessmentDetaills.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Old\XtraReport_COR_SubReport_SubjectDetaills.Designer.vb">
+      <DependentUpon>XtraReport_COR_SubReport_SubjectDetaills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\COR\Old\XtraReport_COR_SubReport_SubjectDetaills.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Enrollment Record\XtraReport_Enrollment_Record.Designer.vb">
+      <DependentUpon>XtraReport_Enrollment_Record.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Enrollment Record\XtraReport_Enrollment_Record.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Sheet\XtraReport_GradeSheet.Designer.vb">
+      <DependentUpon>XtraReport_GradeSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\Grade Sheet\XtraReport_GradeSheet.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\XtraReport_New_COR.Designer.vb">
+      <DependentUpon>XtraReport_New_COR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\XtraReport_New_COR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\TOR\XtraReport_TOR_Details.Designer.vb">
+      <DependentUpon>XtraReport_TOR_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\TOR\XtraReport_TOR_Details.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\TOR\XtraReport_TOR_SLIP.Designer.vb">
+      <DependentUpon>XtraReport_TOR_SLIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\TOR\XtraReport_TOR_SLIP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="04REPORTS\TOR\XtraReport_TOR_Main.Designer.vb">
+      <DependentUpon>XtraReport_TOR_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04REPORTS\TOR\XtraReport_TOR_Main.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="05OBJECTLIST\COR_Assessment_Details.vb" />
+    <Compile Include="05OBJECTLIST\Student_COR.vb" />
+    <Compile Include="05OBJECTLIST\COR_Subject_Details.vb" />
+    <Compile Include="05OBJECTLIST\SubjectLoadInstructor.vb" />
+    <Compile Include="05OBJECTLIST\TESApplication.vb" />
+    <Compile Include="05OBJECTLIST\TORDetails.vb" />
+    <Compile Include="DevExpress\XtraGrid\Views\Grid\SettingsPager.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Syncfusion\Windows.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="00MAINFORMS\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\ArkAntSoftSplashScreen.resx">
+      <DependentUpon>ArkAntSoftSplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\fmaUserList.resx">
+      <DependentUpon>fmaUserList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\fmaUserSetup.resx">
+      <DependentUpon>fmaUserSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\frmFinanceMainForms.resx">
+      <DependentUpon>frmFinanceMainForms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\frmCompanyProfileSetup.resx">
+      <DependentUpon>frmCompanyProfileSetup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\frmSU_Pass.resx">
+      <DependentUpon>frmSU_Pass.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\ftDatabaseConnectionForm.resx">
+      <DependentUpon>ftDatabaseConnectionForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\ftLoginForm.resx">
+      <DependentUpon>ftLoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\ftmdiMainForm.resx">
+      <DependentUpon>ftmdiMainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\fzzReportViewerForm.resx">
+      <DependentUpon>fzzReportViewerForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\remarksDlg.resx">
+      <DependentUpon>remarksDlg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Admission\View\frmNewStudentAdmissionList.resx">
+      <DependentUpon>frmNewStudentAdmissionList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Admission\View\frmStudentCareerList.resx">
+      <DependentUpon>frmStudentCareerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Billing Statement\View\frmBillingStatement.resx">
+      <DependentUpon>frmBillingStatement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Billing Statement\View\frmBillingStatementCreat.resx">
+      <DependentUpon>frmBillingStatementCreat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\CHED E-Form B_C\View\frmChed E-FormBC.resx">
+      <DependentUpon>frmChed E-FormBC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaChedEListForm.resx">
+      <DependentUpon>fmaChedEListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaSubjectTeacherListForm.resx">
+      <DependentUpon>fmaSubjectTeacherListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Grade Slip\View\frmGradeSlip.resx">
+      <DependentUpon>frmGradeSlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Graduate Student\View\frmGraduateList.resx">
+      <DependentUpon>frmGraduateList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\PREVILEGE AND ACCESS\View\frmPrevilegeAccess.resx">
+      <DependentUpon>frmPrevilegeAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Student Learners\View\frmStudentLearnersList.resx">
+      <DependentUpon>frmStudentLearnersList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Blank Form\View\frmBlankForm.resx">
+      <DependentUpon>frmBlankForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\CourseList.resx">
+      <DependentUpon>CourseList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\DotNetBarControls\DevComponentsControls.resx">
+      <DependentUpon>DevComponentsControls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\EHRM_PersonaProfile_ViewerListForm.resx">
+      <DependentUpon>EHRM_PersonaProfile_ViewerListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\EHRM_PersonProfile_SetupForm.resx">
+      <DependentUpon>EHRM_PersonProfile_SetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaAddSubjectForm.resx">
+      <DependentUpon>fmaAddSubjectForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaCashVoucherSetupForm.resx">
+      <DependentUpon>fmaCashVoucherSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaDepartmentSetupForm.resx">
+      <DependentUpon>fmaDepartmentSetupForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaDepatmentList.resx">
+      <DependentUpon>fmaDepatmentList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaDepatmentSetup.resx">
+      <DependentUpon>fmaDepatmentSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaFeesMasterDuplicate.resx">
+      <DependentUpon>fmaFeesMasterDuplicate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaFinance_FeeSchedulerForm.resx">
+      <DependentUpon>fmaFinance_FeeSchedulerForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaCoursesListForm.resx">
+      <DependentUpon>fmaCoursesListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaCoursesSetupForm.resx">
+      <DependentUpon>fmaCoursesSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaBatchesListForm.resx">
+      <DependentUpon>fmaBatchesListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaBatchesSetupForm.resx">
+      <DependentUpon>fmaBatchesSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaFeesMasterSetupForm.resx">
+      <DependentUpon>fmaFeesMasterSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaCreditDistributionListForm.resx">
+      <DependentUpon>fmaCreditDistributionListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaCreditDistributionSetupForm.resx">
+      <DependentUpon>fmaCreditDistributionSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaIncomeSetupForm.resx">
+      <DependentUpon>fmaIncomeSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaDepartmentListForm.resx">
+      <DependentUpon>fmaDepartmentListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaJobTitleList.resx">
+      <DependentUpon>fmaJobTitleList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaJobTitleSetup.resx">
+      <DependentUpon>fmaJobTitleSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaOfficialTranscipt9AForm.resx">
+      <DependentUpon>fmaOfficialTranscipt9AForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaOfficialTranscipt9Form.resx">
+      <DependentUpon>fmaOfficialTranscipt9Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaPayGradeList.resx">
+      <DependentUpon>fmaPayGradeList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaPayGradeSetup.resx">
+      <DependentUpon>fmaPayGradeSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaPositionList.resx">
+      <DependentUpon>fmaPositionList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaPositionSetup.resx">
+      <DependentUpon>fmaPositionSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentsGradeEntryForm.resx">
+      <DependentUpon>fmaStudentsGradeEntryForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentsGradeStList.resx">
+      <DependentUpon>fmaStudentsGradeStList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentsGradeMainForm.resx">
+      <DependentUpon>fmaStudentsGradeMainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentGradingPeriodForm.resx">
+      <DependentUpon>fmaStudentGradingPeriodForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaSubjectaSetupForm.resx">
+      <DependentUpon>fmaSubjectaSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentCategoryListForm.resx">
+      <DependentUpon>fmaStudentCategoryListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentCategorySetupForm.resx">
+      <DependentUpon>fmaStudentCategorySetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentAdmissionListForm.resx">
+      <DependentUpon>fmaStudentAdmissionListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentAdmissionSetupForm.resx">
+      <DependentUpon>fmaStudentAdmissionSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentFeePaymentsForm.resx">
+      <DependentUpon>fmaStudentFeePaymentsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentAssessmentForm.resx">
+      <DependentUpon>fmaStudentAssessmentForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaSubjectStudentsListForm.resx">
+      <DependentUpon>fmaSubjectStudentsListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaFeesMasterListForm.resx">
+      <DependentUpon>fmaFeesMasterListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaFeesDetailListForm.resx">
+      <DependentUpon>fmaFeesDetailListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaFeeCategoryListForm.resx">
+      <DependentUpon>fmaFeeCategoryListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaRPT_IncomeExpenseForm.resx">
+      <DependentUpon>fmaRPT_IncomeExpenseForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaGroupedCoursesForm.resx">
+      <DependentUpon>fmaGroupedCoursesForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaGroupepCourseEntryForm.resx">
+      <DependentUpon>fmaGroupepCourseEntryForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaRegistrarTORPrinting.resx">
+      <DependentUpon>fmaRegistrarTORPrinting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentsGradingPeriod.resx">
+      <DependentUpon>fmaStudentsGradingPeriod.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaOfficialTransciptForm.resx">
+      <DependentUpon>fmaOfficialTransciptForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Employee\View\fmaEmployeeRecord.resx">
+      <DependentUpon>fmaEmployeeRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaTimeScheduleList.resx">
+      <DependentUpon>fmaTimeScheduleList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaTimeScheduleSetup.resx">
+      <DependentUpon>fmaTimeScheduleSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\frmFilterPerson.resx">
+      <DependentUpon>frmFilterPerson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\frmSubjectScheduleSetup.resx">
+      <DependentUpon>frmSubjectScheduleSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Request Form\View\frmRequisitionSlip.resx">
+      <DependentUpon>frmRequisitionSlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Graduate Student\View\frmGraduateStudent.resx">
+      <DependentUpon>frmGraduateStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Grade Sheet\View\frmGradeSheet.resx">
+      <DependentUpon>frmGradeSheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\MasterSetup.resx">
+      <DependentUpon>MasterSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\StudentAssessmentForm.resx">
+      <DependentUpon>StudentAssessmentForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="00MAINFORMS\Mainloading.resx">
+      <DependentUpon>Mainloading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentsSubjectListForm.resx">
+      <DependentUpon>fmaStudentsSubjectListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaSubjectScheduleListForm.resx">
+      <DependentUpon>fmaSubjectScheduleListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaSubjectScheduleSetupForm.resx">
+      <DependentUpon>fmaSubjectScheduleSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Employee\View\fmaEmployeeListForm.resx">
+      <DependentUpon>fmaEmployeeListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaRoomListForm.resx">
+      <DependentUpon>fmaRoomListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaRoomSetupForm.resx">
+      <DependentUpon>fmaRoomSetupForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaSubjectaListForm.resx">
+      <DependentUpon>fmaSubjectaListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\fmaStudentListForm.resx">
+      <DependentUpon>fmaStudentListForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\Subject Load\View\frmSubjectLoad.resx">
+      <DependentUpon>frmSubjectLoad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\TES Application\View\frmTESApplicationEntry.resx">
+      <DependentUpon>frmTESApplicationEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01SETUPFORMS\TES Application\View\frmTESApplicationList.resx">
+      <DependentUpon>frmTESApplicationList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Billing Statement\XtraReport_BillingStatements_Form1.resx">
+      <DependentUpon>XtraReport_BillingStatements_Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Billing Statement\XtraReport_BillingStatements_Form3.resx">
+      <DependentUpon>XtraReport_BillingStatements_Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Billing Statement\XtraReport_Billing_Statement_Form2.resx">
+      <DependentUpon>XtraReport_Billing_Statement_Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_ClaimStub_MultiCopies.resx">
+      <DependentUpon>XtraReport_ClaimStub_MultiCopies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_EnrollmentForm.resx">
+      <DependentUpon>XtraReport_EnrollmentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_EnrollmentForm_MultiCopies.resx">
+      <DependentUpon>XtraReport_EnrollmentForm_MultiCopies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_RequestForm.resx">
+      <DependentUpon>XtraReport_RequestForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_RequestForm_MultiCopies.resx">
+      <DependentUpon>XtraReport_RequestForm_MultiCopies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_TESApplication.resx">
+      <DependentUpon>XtraReport_TESApplication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_TESApplication_MultiCopies.resx">
+      <DependentUpon>XtraReport_TESApplication_MultiCopies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\CHED EForm BC\xtrCHED E-Form B_C.resx">
+      <DependentUpon>xtrCHED E-Form B_C.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Long paper\XtraReport_CORMain_lng.resx">
+      <DependentUpon>XtraReport_CORMain_lng.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Long paper\XtraReport_CORNew_lng.resx">
+      <DependentUpon>XtraReport_CORNew_lng.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Long paper\XtraReport_COR_SubReport_AssessmentDetaills1_lng.resx">
+      <DependentUpon>XtraReport_COR_SubReport_AssessmentDetaills1_lng.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Long paper\XtraReport_COR_SubReport_SubjectDetaills1_lng.resx">
+      <DependentUpon>XtraReport_COR_SubReport_SubjectDetaills1_lng.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Short paper\XtraReport_COR1.resx">
+      <DependentUpon>XtraReport_COR1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Short paper\XtraReport_CORMain.resx">
+      <DependentUpon>XtraReport_CORMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Short paper\XtraReport_CORNew.resx">
+      <DependentUpon>XtraReport_CORNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Short paper\XtraReport_COR_Final.resx">
+      <DependentUpon>XtraReport_COR_Final.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Short paper\XtraReport_COR_SubReport_AssessmentDetaills1.resx">
+      <DependentUpon>XtraReport_COR_SubReport_AssessmentDetaills1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Short paper\XtraReport_COR_SubReport_SubjectDetaills1.resx">
+      <DependentUpon>XtraReport_COR_SubReport_SubjectDetaills1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Grade Slip\xtrGradeSlip.resx">
+      <DependentUpon>xtrGradeSlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Grade Slip\xtrGradeSlip_dummy.resx">
+      <DependentUpon>xtrGradeSlip_dummy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Grade Slip\xtrGradeSlip_Main.resx">
+      <DependentUpon>xtrGradeSlip_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_CHED_E_List.resx">
+      <DependentUpon>rpt_CHED_E_List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_OTORForm9.resx">
+      <DependentUpon>rpt_OTORForm9.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_OTORForm9A.resx">
+      <DependentUpon>rpt_OTORForm9A.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_CashVoucher.resx">
+      <DependentUpon>rpt_CashVoucher.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_CollegeStudentAssessmentReport.resx">
+      <DependentUpon>rpt_CollegeStudentAssessmentReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_IncomeExpeseList.resx">
+      <DependentUpon>rpt_IncomeExpeseList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_OTOR.resx">
+      <DependentUpon>rpt_OTOR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_ReceiptPrintout.resx">
+      <DependentUpon>rpt_ReceiptPrintout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_StudentsGrade.resx">
+      <DependentUpon>rpt_StudentsGrade.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\rpt_StudentStatementofAccount.resx">
+      <DependentUpon>rpt_StudentStatementofAccount.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Subject Load\xtrSubjectLoad.resx">
+      <DependentUpon>xtrSubjectLoad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Subject Load\xtrSubjectLoad_Main.resx">
+      <DependentUpon>xtrSubjectLoad_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\SubjectSchedulePerInstructor.resx">
+      <DependentUpon>SubjectSchedulePerInstructor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\SubjectSchedulePerRoom.resx">
+      <DependentUpon>SubjectSchedulePerRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\SubjectTeacherSummaryPerBatch.resx">
+      <DependentUpon>SubjectTeacherSummaryPerBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\subrpt_OTORForma9ADetails.resx">
+      <DependentUpon>subrpt_OTORForma9ADetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\subrpt_SOAFee.resx">
+      <DependentUpon>subrpt_SOAFee.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\subrpt_studentpaymode.resx">
+      <DependentUpon>subrpt_studentpaymode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\subrpt_studentspayment_made.resx">
+      <DependentUpon>subrpt_studentspayment_made.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\subrpt_StudentSubjectList.resx">
+      <DependentUpon>subrpt_StudentSubjectList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Blank Form\XtraReport_ClaimStub.resx">
+      <DependentUpon>XtraReport_ClaimStub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Old\XtraReport_COR.resx">
+      <DependentUpon>XtraReport_COR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Old\XtraReport_COR_SubReport_AssessmentDetaills.resx">
+      <DependentUpon>XtraReport_COR_SubReport_AssessmentDetaills.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\COR\Old\XtraReport_COR_SubReport_SubjectDetaills.resx">
+      <DependentUpon>XtraReport_COR_SubReport_SubjectDetaills.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Enrollment Record\XtraReport_Enrollment_Record.resx">
+      <DependentUpon>XtraReport_Enrollment_Record.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\Grade Sheet\XtraReport_GradeSheet.resx">
+      <DependentUpon>XtraReport_GradeSheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\T_E_S\XtraReportScholarshipTES.resx">
+      <DependentUpon>XtraReportScholarshipTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\XtraReport_New_COR.resx">
+      <DependentUpon>XtraReport_New_COR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\TOR\XtraReport_TOR_Details.resx">
+      <DependentUpon>XtraReport_TOR_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\TOR\XtraReport_TOR_SLIP.resx">
+      <DependentUpon>XtraReport_TOR_SLIP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\TOR\XtraReport_TOR_Main.resx">
+      <DependentUpon>XtraReport_TOR_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04REPORTS\xtrPRCList.resx">
+      <DependentUpon>xtrPRCList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram6.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\DataSources\BillingStatementForm2.datasource" />
+    <None Include="My Project\DataSources\BillingStatementForm3.datasource" />
+    <None Include="My Project\DataSources\COR_Assessment_Details.datasource" />
+    <None Include="My Project\DataSources\COR_Subject_Details.datasource" />
+    <None Include="My Project\DataSources\GradeSlip.datasource" />
+    <None Include="My Project\DataSources\StudentProfileList.datasource" />
+    <None Include="My Project\DataSources\Student_COR.datasource" />
+    <None Include="My Project\DataSources\SubjectLoadInstructor.datasource" />
+    <None Include="My Project\DataSources\TESApplication.datasource" />
+    <None Include="My Project\DataSources\test.datasource" />
+    <None Include="My Project\DataSources\TORDetails.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ant_ark_finalLogo copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6706_381275558638288_51070188_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_finance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash-register-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy of Blocnote-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinner.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinner_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DJEMFCST_LOGO.ico" />
+    <None Include="Resources\3dstackedarea_16x16.png" />
+    <None Include="Resources\additem_16x16.png" />
+    <Content Include="Resources\addNewPerson.jpg" />
+    <Content Include="Resources\addOldPerson.jpg" />
+    <None Include="Resources\usergroup_32x32.png" />
+    <None Include="Resources\bosale_32x32.png" />
+    <None Include="Resources\add_32x32.png" />
+    <None Include="Resources\add_16x16.png" />
+    <Content Include="Resources\checkbox-ticked-alt-128.png" />
+    <Content Include="Resources\clear.png" />
+    <None Include="Resources\defaultprinternetwork_16x16.png" />
+    <Content Include="Resources\department.png" />
+    <Content Include="Resources\department1.png" />
+    <None Include="Resources\financial_16x16.png" />
+    <None Include="Resources\editname_32x32.png" />
+    <None Include="Resources\doubleprev_32x32.png" />
+    <None Include="Resources\doublenext_32x32.png" />
+    <None Include="Resources\doublenext_32x321.png" />
+    <None Include="Resources\editname_16x16.png" />
+    <Content Include="Resources\folder-search.png" />
+    <Content Include="Resources\Group2_Employees_Light.html" />
+    <None Include="Resources\hide_16x16.png" />
+    <Content Include="Resources\languages.png" />
+    <Content Include="Resources\like_289615.png" />
+    <Content Include="Resources\Listof.png" />
+    <Content Include="Resources\mathematics.png" />
+    <Content Include="Resources\paygrade.png" />
+    <Content Include="Resources\position.png" />
+    <Content Include="Resources\positionTitle.png" />
+    <Content Include="Resources\reading.png" />
+    <None Include="Resources\refresh2_16x16.png" />
+    <Content Include="Resources\remove.png" />
+    <Content Include="Resources\rooms.png" />
+    <Content Include="Resources\selected-128.png" />
+    <None Include="Resources\solidreddatabar_16x16.png" />
+    <None Include="Resources\show_16x16.png" />
+    <None Include="Resources\show_16x161.png" />
+    <Content Include="Resources\student.png" />
+    <Content Include="Resources\subjects.png" />
+    <Content Include="Resources\teacher.png" />
+    <Content Include="Resources\time.png" />
+    <Content Include="Resources\time1.png" />
+    <None Include="Resources\tpc_header.jpg" />
+    <None Include="Resources\TPC_logo.jpg" />
+    <None Include="Resources\Profile.png" />
+    <None Include="Resources\wallet-open.png" />
+    <None Include="Resources\User_group.png" />
+    <None Include="Resources\cash_register.png" />
+    <None Include="Resources\client_account_template.png" />
+    <None Include="Resources\Money.png" />
+    <None Include="Resources\room-24px.png" />
+    <None Include="Resources\Teachers-24.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\savefloppy.png" />
+    <None Include="Resources\wordDoc_B.png" />
+    <None Include="Resources\1497287367_user_profile_edit.png" />
+    <None Include="Resources\1497287227_icon-45-note-list.png" />
+    <None Include="Resources\1497287252_th-list.png" />
+    <None Include="Resources\1497287167_icon-40-clipboard-list.png" />
+    <None Include="Resources\1497287047_custom-reports.png" />
+    <None Include="Resources\1496482448_view-refresh.png" />
+    <None Include="Resources\1496482353_view-refresh.png" />
+    <None Include="Resources\1496482295_view-refresh.png" />
+    <None Include="Resources\refresh_icon.jpg" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\Risk-assesment-icon.png" />
+    <None Include="Resources\fee-splitting-and-referral-fee-400x400.png" />
+    <None Include="Resources\community-student-icon.png" />
+    <None Include="Resources\duplicate-icon-md.png" />
+    <None Include="Resources\loading-2.gif" />
+    <None Include="Resources\admission_page_logo.jpg" />
+    <None Include="Resources\instructors.png" />
+    <None Include="Resources\room_setup.png" />
+    <None Include="Resources\subjectlist.png" />
+    <None Include="Resources\studentlist.png" />
+    <None Include="Resources\paymentschedule.png" />
+    <None Include="Resources\postpayment.png" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\Settings-icon.png" />
+    <None Include="Resources\Save_24x24.png" />
+    <None Include="Resources\Save_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

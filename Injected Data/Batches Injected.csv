@@ -1,0 +1,23 @@
+id,name,course_id,start_date,end_date,is_active,is_deleted,employee_id,year_level,school_year,semester,SysPk,coursename
+18,BS Criminology - 1ST Year 1st Sem ( 2020 - 2020),10,,,1,0,,1ST YEAR,2020 - 2020,1ST SEMESTER,830374701,BS Criminology
+19,BS Criminology - 2nd Year 1st Sem ( 2020 - 2020 ),10,,,1,0,,2ND YEAR,2020 - 2020,1ST SEMESTER,830374702,BS Criminology
+20,BS Criminology - 3rd Year 1st Sem ( 2020 - 2020 ),10,,,1,0,,3RD YEAR,2020 - 2020,1ST SEMESTER,830374703,BS Criminology
+21,BS Criminology - 4th Year 1st Sem ( 2020 - 2020 ),10,,,1,0,,4TH YEAR,2020 - 2020,1ST SEMESTER,830374704,BS Criminology
+22,BS Criminology - 1st Year 1st Sem ( 2019 - 2019 ),10,,,1,0,,1SY YEAR,2019 - 2019,1ST SEMESTER,830374705,BS Criminology
+23,BS Criminology - 2nd Year 1st Sem ( 2019 - 2019 ),10,,,1,0,,2ND YEAR,2019 - 2019,1ST SEMESTER,830374706,BS Criminology
+24,BS Criminology - 3rd Year 1st Sem ( 2019 - 2019 ),10,,,1,0,,3RD YEAR,2019 - 2019,1ST SEMESTER,830374707,BS Criminology
+25,BS Criminology - 4th Year 1st Sem ( 2019 - 2019 ),10,,,1,0,,4TH YEAR,2019 - 2019,1ST SEMESTER,830374708,BS Criminology
+26,BS Criminology - 1st Year 2nd Sem ( 2019 - 2020 ),10,,,1,0,,1SY YEAR,2019 - 2020,2ND SEMESTER,830374709,BS Criminology
+27,BS Criminology - 2nd Year 2nd Sem ( 2019 - 2020 ),10,,,1,0,,2ND YEAR,2019 - 2020,2ND SEMESTER,830374700,BS Criminology
+28,BS Criminology - 3rd Year 2nd Sem ( 2019 - 2020 ),10,,,1,0,,3RD YEAR,2019 - 2020,2ND SEMESTER,830374807,BS Criminology
+29,BS Criminology - 4th Year 2nd Sem ( 2019 - 2020 ),10,,,1,0,,4TH YEAR,2019 - 2020,2ND SEMESTER,830374908,BS Criminology
+30,BS HRM - 1st Year 1st Sem ( 2020 - 2020 ),4,,,1,0,,1SY YEAR,2020 - 2020,1ST SEMESTER,-104810667,BS HRM - Hotel and Restaurant Management
+31,BS HRM - 2nd Year 1st Sem ( 2020 - 2020 ),4,,,1,0,,2ND YEAR,2020 - 2020,1ST SEMESTER,-104810668,BS HRM - Hotel and Restaurant Management
+32,BS HRM - 3rd  Year 1st Sem ( 2020 - 2020 ),4,,,1,0,,3RD YEAR,2020 - 2020,1ST SEMESTER,-104810669,BS HRM - Hotel and Restaurant Management
+33,BS HRM - 4th Year 1st Sem ( 2020 - 2020 ),4,,,1,0,,4TH YEAR,2020 - 2020,1ST SEMESTER,-104810660,BS HRM - Hotel and Restaurant Management
+34,BS HRM - 3rd  Year 2nd Sem ( 2020 - 2021 ),4,,,1,0,,3RD YEAR,2020 - 2021,2ND SEMESTER,-104810679,BS HRM - Hotel and Restaurant Management
+35,BS HRM - 4th Year 2ndSem ( 2020 - 2021 ),4,,,1,0,,4TH YEAR,2020 - 2021,2ND SEMESTER,-104810680,BS HRM - Hotel and Restaurant Management
+36,BS HRM - 1st Year 2nd Sem ( 2019 - 2020 ),4,,,1,0,,1SY YEAR,2019 - 2020,2ND SEMESTER,-104810767,BS HRM - Hotel and Restaurant Management
+37,BS HRM - 2nd Year 2nd Sem ( 2019 - 2020 ),4,,,1,0,,2ND YEAR,2019 - 2020,2ND SEMESTER,-104810868,BS HRM - Hotel and Restaurant Management
+38,BS HRM - 3rd  Year 2nd Sem ( 2019 - 2020 ),4,,,1,0,,3RD YEAR,2019 - 2020,2ND SEMESTER,-104810969,BS HRM - Hotel and Restaurant Management
+39,BS HRM - 4th Year 2nd Sem ( 2019 - 2020 ),4,,,1,0,,4TH YEAR,2019 - 2020,2ND SEMESTER,-104810060,BS HRM - Hotel and Restaurant Management

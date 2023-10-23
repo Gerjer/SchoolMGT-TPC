@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<C1TrueDBGrid>
+    <AllowDelete>False</AllowDelete>
+    <AllowAddNew>False</AllowAddNew>
+    <AllowArrows>True</AllowArrows>
+    <AllowDrag>False</AllowDrag>
+    <AllowUpdate>True</AllowUpdate>
+    <AllowUpdateOnBlur>True</AllowUpdateOnBlur>
+    <CellTips>NoCellTips</CellTips>
+    <CellTipsDelay>500</CellTipsDelay>
+    <CellTipsWidth>0</CellTipsWidth>
+    <CollapseColor>Black</CollapseColor>
+    <DefColWidth>0</DefColWidth>
+    <ExpandColor>Black</ExpandColor>
+    <ColumnHeaders>True</ColumnHeaders>
+    <ColumnFooters>False</ColumnFooters>
+    <EditDropDown>True</EditDropDown>
+    <EmptyRows>False</EmptyRows>
+    <ExtendRightColumn>True</ExtendRightColumn>
+    <ExposeCellMode>ScrollOnSelect</ExposeCellMode>
+    <MatchEntryTimeOut>2000</MatchEntryTimeOut>
+    <MultiSelect>Extended</MultiSelect>
+    <RecordSelectorWidth>17</RecordSelectorWidth>
+    <ScrollTips>False</ScrollTips>
+    <TabAcrossSplits>False</TabAcrossSplits>
+    <TabAction>ControlNavigation</TabAction>
+    <WrapCellPointer>False</WrapCellPointer>
+    <DataView>Normal</DataView>
+    <DirectionAfterEnter>MoveRight</DirectionAfterEnter>
+    <GroupByCaption>Drag a column header here to group by that column</GroupByCaption>
+    <GroupByAreaVisible>True</GroupByAreaVisible>
+    <LinesPerRow>0</LinesPerRow>
+    <MaintainRowCurrency>False</MaintainRowCurrency>
+    <RowDivider>DarkGray,Single</RowDivider>
+    <RowSubDividerColor>DarkGray</RowSubDividerColor>
+    <AlternatingRows>False</AlternatingRows>
+    <AllowRowSizing>AllRows</AllowRowSizing>
+    <AllowHorizontalSplit>False</AllowHorizontalSplit>
+    <AllowVerticalSplit>False</AllowVerticalSplit>
+    <ViewColumnWidth>0</ViewColumnWidth>
+    <ViewCaptionWidth>0</ViewCaptionWidth>
+    <BorderStyle>FixedSingle</BorderStyle>
+    <AllowSort>True</AllowSort>
+    <AllowFilter>True</AllowFilter>
+    <Caption />
+    <CaptionHeight>17</CaptionHeight>
+    <RowHeight>25</RowHeight>
+    <FlatStyle>System</FlatStyle>
+    <ScrollTrack>True</ScrollTrack>
+    <PropBag>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style48{Font:Microsoft Sans Serif, 9pt, style=Bold;BackColor2:White;ForeColor:White;GradientMode:None;BackColor:DarkBlue;}HighlightRow{GammaCorrection:True;GradientMode:Vertical;Padding:3, 0, 0, 0;BackColor2:Orange;AlignVert:Center;ForeColor:192, 64, 0;BackColor:White;}Style50{BackColor2:White;ForeColor:MidnightBlue;GradientMode:None;BackColor:White;}Editor{Padding:0, 0, 0, 3;AlignVert:Center;}EvenRow{Padding:3, 0, 0, 0;AlignVert:Center;BackColor:SkyBlue;ForeColor:Navy;}Normal{GammaCorrection:True;GradientMode:Vertical;BackColor2:MediumAquamarine;ForeColor:Navy;BackColor:Azure;Font:Microsoft Sans Serif, 9pt;}RecordSelector{GradientMode:Horizontal;GammaCorrection:True;BackColor2:Orange;BackColor:White;AlignImage:Center;}Style53{}Style52{}Style51{AlignHorz:Near;}OddRow{Padding:3, 0, 0, 0;AlignVert:Center;BackColor:White;ForeColor:Navy;}Style14{}Footer{}FilterBar{}Heading{AlignVert:Center;Border:Flat,ControlDark,0, 1, 0, 1;ForeColor:Navy;BackColor:Control;Wrap:True;}Style47{}Style46{}Style45{}Selected{Padding:3, 0, 0, 0;AlignVert:Center;BackColor:Highlight;ForeColor:HighlightText;}Style15{}Style43{}Style42{}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Caption{GradientMode:Horizontal;Font:Microsoft Sans Serif, 10pt, style=Bold;ForeColor:Navy;AlignHorz:Center;BackColor2:SkyBlue;}Style54{AlignImage:Stretch;}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style44{}Style49{ForeColor:MidnightBlue;GammaCorrection:True;BackColor2:White;GradientMode:None;BackColor:AliceBlue;}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.MergeView Name="" AlternatingRowStyle="True" CaptionHeight="30" ColumnCaptionHeight="30" ColumnFooterHeight="30" ExtendRightColumn="True" FilterBar="True" MarqueeStyle="HighlightRow" RecordSelectorWidth="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;Height&gt;458&lt;/Height&gt;&lt;CaptionStyle parent="Heading" me="Style51" /&gt;&lt;EditorStyle parent="Editor" me="Style43" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style49" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style54" /&gt;&lt;FooterStyle parent="Footer" me="Style45" /&gt;&lt;GroupStyle parent="Group" me="Style53" /&gt;&lt;HeadingStyle parent="Heading" me="Style44" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style48" /&gt;&lt;InactiveStyle parent="Inactive" me="Style47" /&gt;&lt;OddRowStyle parent="OddRow" me="Style50" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style52" /&gt;&lt;SelectedStyle parent="Selected" me="Style46" /&gt;&lt;Style parent="Normal" me="Style42" /&gt;&lt;ClientRect&gt;0, 0, 941, 458&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.MergeView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;None&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 941, 458&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style14" /&gt;&lt;PrintPageFooterStyle parent="" me="Style15" /&gt;&lt;/Blob&gt;</PropBag>
+    <Images>
+        <Bitmap>iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA0SURBVChTdYkBCgAgDAL9/6eLIsd0eSCKhw/r9aCLtC88vAdHMEIXKUIUhMK76EfagglgA6CqHOQpL6GyAAAAAElFTkSuQmCC</Bitmap>
+    </Images>
+    <SplitDividerSize>5, 5</SplitDividerSize>
+</C1TrueDBGrid>

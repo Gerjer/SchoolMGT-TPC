@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchoolMGT.XtraReport_Billing_Statement_Form2" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>h3sgHAgAACAAHAEI7l2WwMD7HTb8RwDwLhvu9z1+n+8=</HashCode>
+      <FileName>04REPORTS\Billing Statement\XtraReport_Billing_Statement_Form2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,3 @@
+﻿Public Class XtraReport_RequestForm_MultiCopies
+
+End Class

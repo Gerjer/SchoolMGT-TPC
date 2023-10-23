@@ -1,0 +1,3 @@
+﻿Public Class XtraReport_TESApplication_MultiCopies
+
+End Class

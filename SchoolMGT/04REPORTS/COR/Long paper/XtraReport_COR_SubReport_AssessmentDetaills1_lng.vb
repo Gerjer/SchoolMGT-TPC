@@ -1,0 +1,3 @@
+﻿Public Class XtraReport_COR_SubReport_AssessmentDetaills1_lng
+
+End Class

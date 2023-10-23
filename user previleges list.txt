@@ -1,0 +1,50 @@
+MENU LIST
+FINANCE                        - 1
+  FEES                         - 2
+     Create Fees               - 3
+     Finance Fee Category      - 4
+  STUDENT ASSESSMENT           - 5
+  TRANSACTION                  - 6
+     STUDENTS ACCOUNT PAYMENT  - 7
+     MANAGE INCOME/EXPENSE     - 8 
+       ADD INCOME              - 9
+       ADD EXPENSE             - 10
+
+REGISTRAR                      - 11
+   STUDENT ADMISSION           - 12
+   MODULES                     - 13
+   FINAL GRADES                - 14
+   PROGRAM MODULES             - 15
+
+FACULTY                        - 16
+   GRADING PERIOD              - 17
+   MANAGE GRADE                - 18
+     by Schedule               - 19
+     by Student                - 20
+   GRADE SHEET                 - 21
+
+SETUP                          - 22
+    STUDENT CATEGORY           - 23
+    COURSE / GRADE             - 24
+      Manage Course Grade Level- 25
+      Manage Batch or Section  - 26
+      Link/Group Courses       - 27
+    SUBJECT                    - 28
+       Credit Distribution     - 29
+       Manage Subject          - 30
+    EMPLOYEE CREDENTIALS       - 31
+       Department              - 32
+       Position                - 33
+       Job Title               - 34
+    PAY GRADES                 - 35
+    ROOMS                      - 36
+    TIME SCHEDULE              - 37
+
+LISTS                          - 38
+    INSTRUCTOR / EMPLOYEE      - 39
+    STUDENTS PROFILE           - 40
+    ADMISSION FILE             - 41
+
+SYSTEMS                        - 42
+    USERS                      - 43
+    DB CONNECTION              - 44
